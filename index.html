@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="myscript.js"></script> 
+    <link rel="stylesheet" href="style.css">
+    <title>Freelance Tax Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Freelance Calculator</h2>
+        <label for="income">Total Income ($):</label>
+        <input type="number" id="income" placeholder="Enter your income" />
+
+        <label for="expenses"> Deductible Expenses ($):</label>
+        <input type="number" id="expenses" placeholder="Enter your expenses" />
+
+        <button onclick="calculateTax()">Calculate Tax</button>
+
+        <div class="result" id="result"></div>
+    </div>
+
+    
+</body>
+</html>

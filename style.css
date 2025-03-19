@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+}
+input, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+.result {
+    font-weight: bold;
+    margin-top: 20px;
+}
